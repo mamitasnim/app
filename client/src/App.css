@@ -1,0 +1,166 @@
+
+.form{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ background-color:transparent;
+  margin: 0px;
+  width :650px;
+  height: 650px;
+
+}
+
+.form input {
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    width: 350px;
+    height:40px;
+    margin-left:60px;
+    margin-bottom:15px ;
+    background-color: transparent;
+    box-shadow: 0 0 5px 5px rgb(58, 54, 49);
+    
+}
+.App{
+  width: 100%;
+  background-image: url(./image/7.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+p {
+  color: red;
+  margin-left:60px;
+  margin-bottom:15px ;
+  text-align: left;
+}
+/*.navbar{
+  width: 1400px;
+  height: 75px;
+  margin: auto;
+  background-color:bisque
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+  
+}
+
+.logo{
+  color:blue;
+  font-size: 50px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+
+
+ul li a:hover{
+  color: #ff7200;
+}*/
+*{
+  margin:0px ;
+  padding: 0px;}
+  /*.form{
+    background-color: aliceblue;
+    margin: 0px;
+    width :550px;
+    height: 650px;
+    border : solid blue 1px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    box-shadow: 0 0 10px 10px blue;}*/
+  
+  
+  h1{
+    text-align: left;
+    font-size: 50px;
+    font-family: monospace;
+    color:#6e5244;
+    margin-left: 60px;
+    margin-bottom:60px ;
+  }
+   button{
+    margin-left: 100px;
+    width: 350px;
+    height:40px;
+    margin-left:60px;
+    margin-bottom:15px ;
+    border-radius: 10px;
+    border : none;
+    background-color:black;
+    color: beige;
+    
+  }
+  h3{
+    text-align: left;
+    font-size: 20px;
+    color:black;
+    margin-left:60px;
+    margin-bottom:15px ;
+  }
+a{
+  color:grey
+
+}
+h4{
+  text-align: left;
+  font-size: 20px;
+  color:black;
+  margin-left:60px;
+  margin-bottom:15px ;
+}
+#saisir{
+  color: #2b2929;
+}
+#connecter{
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: monospace;
+  width: 350px;
+  height:40px;
+  margin-left:0px;
+  margin-bottom:15px ;
+}
+td{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.dialog{
+  background-color: #6e5244;
+}
