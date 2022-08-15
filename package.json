@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
+    "build": "webpack",
+    "heroku-postbuild": "echo Skip build on Heroku",
+    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
+    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies.",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/mamitasnim/test/issues"
   },
-  "homepage": "https://github.com/mamitasnim/test#readme"
+  "homepage": "https://github.com/mamitasnim/test#readme",
+  "heroku-run-build-script": true
 }
